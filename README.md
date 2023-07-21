@@ -1,22 +1,21 @@
-# dp-100-exam study
-What follow is a HOL study plan generated from ChatGPT for the Microsoft DP100 Exam. The dataset is the Sepsis Survival Minimal Clinical Records dataset from the UIC Machine Learning Repository. The citation for the dataset is:
-Chicco,Davide and Jurman,Giuseppe. (2023). Sepsis Survival Minimal Clinical Records. UCI Machine Learning Repository. https://doi.org/10.24432/C53C8N.
-
-## Study Plan:
 Hands-On Lab: Microsoft DP-100 Exam Preparation
 
 Topic 1: Design a Machine Learning Solution and Determine Compute Specifications
 
+Objective: In this lab, you will design a machine learning solution and determine the appropriate compute specifications for a training workload using Azure Machine Learning.
+
 1. Create an Azure Machine Learning Workspace:
    - Open the Azure Portal and create a new Azure Machine Learning Workspace.
-	Creation of container registry for images
-	High business impact workspace for sensitive data. No telemetry to MSFT
+	• Creation of container registry for images
+	• High business impact workspace for sensitive data. No telemetry to MSFT
 
 2. Prepare the Data:
    - Download a sample dataset for training, such as the Iris dataset, and save it to Azure Storage.
 
 3. Set Up Git Integration:
    - Enable Git integration for version control of your machine learning project in the Azure Machine Learning Workspace.
+	• Use compute instances to integrate Git
+	• Compute will be created in the same location as the workspace
 
 4. Define the Machine Learning Solution:
    - Define the problem statement and objectives of the machine learning project.
@@ -86,4 +85,3 @@ Objective: In this lab, you will manage the compute resources for experiments in
    - Use Azure Machine Learning's monitoring tools to track compute utilization and identify bottlenecks.
 
 The above hands-on labs will help you gain practical experience in the key topics covered in the Microsoft DP-100 exam. Remember to review the official Microsoft documentation for Azure Machine Learning and practice using the Azure Portal and Azure CLI to reinforce your understanding. Good luck with your exam preparation!
-
